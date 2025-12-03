@@ -1,1 +1,73 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f5ff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #2b2b2b;
+}
+
+#questions {
+  width: 70%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#questions > div {
+  background: #f7f9ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #dde3ff;
+}
+
+#questions h4 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #3b3b3b;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+#submit {
+  display: block;
+  margin: 25px auto;
+  padding: 12px 30px;
+  font-size: 18px;
+  background: #4f6bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#submit:hover {
+  background: #3c55e0;
+}
+
+#score {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #2a2a2a;
+}
